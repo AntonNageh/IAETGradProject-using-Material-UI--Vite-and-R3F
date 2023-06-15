@@ -18,7 +18,7 @@ const Mainpage = () => {
       such as Communications, Embedded Systems, Web <br></br> 
       development  and also Space!
       </p>
-      <img src='/src/Images/OurTeam.jpg' loading='lazy' className='OurTeam' alt='Unloaded Img'/>
+      <img className='OurTeam' src='/src/Images/OurTeam.jpg' loading='lazy' alt='unloaded Img'/>
       </div>
       <div>
       <Satellite/>
