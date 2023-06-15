@@ -1,0 +1,9 @@
+.Satellitedish {
+    height: 90vh !important;
+}
+@media all and (width>=768px) {
+    .Satellitedish{
+        left: 50rem;
+        width: 30rem !important;
+    }
+}

@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background-image: url('https://e0.pxfuel.com/wallpapers/366/194/desktop-wallpaper-most-popular-outer-space-stars-background-full-for-pc-star-background-aesthetic-space-background-doodle-space-aesthetic.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.Button { 
+    position: relative;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: transparent;
+    width: 10rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    transition: all 0.4s ease-in;
+    right: 0;
+   }
+   
+.Button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+.Button:hover span {
+    color: black;
+}
+.Button span {
+    z-index: 1;
+}
+.Button:hover {
+    transform: scale(1);
+}

@@ -1,0 +1,41 @@
+
+.Earth {
+    animation: earthAnim 50s infinite linear;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: -20px -20px 50px 2px #000 inset,0 0 20px 2px #000 inset;
+    background-image: url('/src/Images/Earth2.jpg');
+}
+
+@keyframes earthAnim {
+    0% {background-position: 0rem center;}
+    20% {background-position: 40rem center;}
+    40% {background-position: 80rem center;}
+    60% {background-position: 120rem center;}
+    80% {background-position: 160rem center;}
+    100% {background-position: 200rem center;}
+}
+.Earth_Text {
+    position: absolute;
+    font-weight: 400;
+    color: white;
+    font-size: 9rem;
+    z-index: 1;
+     /*     animation: fadeInDown; 
+            animation-duration: 1s;  */
+}
+h2 {
+    font-size: 2rem;
+}
+.Earth_Text span {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+ 
+@media all and (width>=768px) {
+    .Earth_Text {
+        font-size: 13rem;
+        margin-left: 22%;
+    }
+}
