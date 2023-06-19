@@ -1,4 +1,3 @@
-
 .Navbar_body a:not(:hover):after {
     transition: all 0.3s;
     width: 0%;
@@ -28,11 +27,8 @@ a {
     left: 0%;
     background-color: grey;
 }
-.Navbar_body:hover a{
-    filter:blur(5px);
-}
+
 a:hover{
-    filter: blur(0px) !important;
     transform: scale(1.3);
     transition: 0.2s;
     color: white !important;

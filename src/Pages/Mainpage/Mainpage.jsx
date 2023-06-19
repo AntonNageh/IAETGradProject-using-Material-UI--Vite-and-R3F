@@ -3,6 +3,7 @@ import Earth from '../../Maincomponents/Earth/Earth'
 import './Mainpage.css'
 import Satellite from '../../Maincomponents/3D Objects/Satellite/Satellite'
 import SatelliteDish from '../../Maincomponents/3D Objects/Satellitedish/Satellitedish'
+import OurTeam from '/src/Images/OurTeam.jpg'
 const Mainpage = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Mainpage = () => {
       such as Communications, Embedded Systems, Web <br></br> 
       development  and also Space!
       </p>
-      <img className='OurTeam' src='/src/Images/OurTeam.jpg' loading='lazy' alt='unloaded Img'/>
+      <img className='OurTeam' src={OurTeam} loading='lazy' alt='unloaded Img'/>
       </div>
       <div>
       <Satellite/>
