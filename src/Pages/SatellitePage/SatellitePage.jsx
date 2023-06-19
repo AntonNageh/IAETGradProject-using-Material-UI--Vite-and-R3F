@@ -1,4 +1,5 @@
 import React from 'react'
+import Esp32Cam from '../../Maincomponents/Esp32Cam/Esp32Cam'
 
 const SatellitePage = () => {
   return (
@@ -9,7 +10,7 @@ const SatellitePage = () => {
         </div>
         <div className='mt-12'>
         <h1>Captured Video : </h1>
-        {/* <Esp32LiveStream/> */}
+        { <Esp32Cam/> }
         <video className='mt-10' autoPlay muted loop width='400px'>
         <source 
         src="https://st2.depositphotos.com/1417530/10062/v/600/depositphotos_100620744-stock-video-satellite-view-of-the-earth.mp4" 
