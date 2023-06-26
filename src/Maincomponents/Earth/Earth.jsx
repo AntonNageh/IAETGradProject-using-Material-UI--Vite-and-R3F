@@ -5,7 +5,7 @@ const Earth = () => {
     <div className="h-screen container mx-auto">
   <center>
     <div>
-    <h1 className="Earth_Text ml-2 mt-10 sm:ml-16 xl:ml-96 relative">E<span>ART</span>H</h1>
+    <h1 className="Earth_Text mt-16 md:mt-7 sm:ml-16 xl:ml-96 relative">E<span>ART</span>H</h1>
       <div className="Earth_Img h-80 w-80 lg:w-96 lg:h-96">
         <div className="Earth"></div>
       </div>

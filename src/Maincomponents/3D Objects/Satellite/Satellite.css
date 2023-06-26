@@ -1,3 +1,8 @@
 .Satellite {
-    height: 90vh !important;
+    height: 50vh !important;
+}
+@media all and (width>=768px) {
+    .Satellite {
+        height: 90vh !important;
+    }
 }

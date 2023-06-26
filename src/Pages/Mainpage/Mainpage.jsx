@@ -11,9 +11,9 @@ const Mainpage = () => {
     <Earth/>
     {/* The Second section which shows who we are and what we do, also a 3D Satellite (Available on PolyPizza)*/}
     <div className="container md:mx-auto text-white flex flex-col mb-20 lg:w-screen lg:grid lg:grid-flow-col">
-      <div className='ml-10'>
+      <div className='ml-2 md:ml-10 text-center md:text-justify'>
       <h1 className="text-6xl mb-5">Our Team</h1>
-      <p className='text-2xl mb-10'>
+      <p className='text-2xl mb-10 text-left ml-5 md:ml-0'>
       We are an undergraduate students who are <br></br>
       interested in creating something new which includes<br></br> 
       the major domains essentiel in real world work-field <br></br>
@@ -29,9 +29,9 @@ const Mainpage = () => {
     </div>
     {/* The Earth Station Section which also contains a 3D Earth Satellite Dish */}
     <div className='container md:mx-auto text-white flex flex-col lg:w-screen lg:grid lg:grid-flow-col'>
-    <div className='ml-10'>
+    <div className='ml-10 text-center md:text-justify'>
       <h1 className="text-6xl mb-5">Earth Satellite Station (ESS)</h1>
-      <p className='text-2xl mb-10 lg:w-3/6'>
+      <p className='text-2xl mb-10 lg:w-3/6 text-left'>
       • An Earth Satellite Station (ESS) is a ground station that is used to <br></br>
       communicate with and control satellites orbiting the Earth. <br></br>
       • ESSs are an essential part of satellite operations, as they allow satellite <br></br> 
