@@ -17,6 +17,7 @@ const Satellite = () => {
             <directionalLight color="white" position={[5, 0, 5]} /> 
           <OrbitControls target={[0, 15, 0]} autoRotate/>
           </Canvas>
+     
     </div>
   )
 }

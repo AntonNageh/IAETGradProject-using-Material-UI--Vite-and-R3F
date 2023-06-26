@@ -7,7 +7,6 @@ import OurTeam from '/src/Images/OurTeam.jpg'
 const Mainpage = () => {
   return (
     <div>
-
     <Earth/>
     <div className="container md:mx-auto text-white flex flex-col mb-20 lg:w-screen lg:grid lg:grid-flow-col">
       <div className='ml-10'>
