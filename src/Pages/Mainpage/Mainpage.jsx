@@ -7,7 +7,9 @@ import OurTeam from '/src/Images/OurTeam.jpg'
 const Mainpage = () => {
   return (
     <div>
+    {/* Rendering the Earth component which contains the first section */}
     <Earth/>
+    {/* The Second section which shows who we are and what we do, also a 3D Satellite (Available on PolyPizza)*/}
     <div className="container md:mx-auto text-white flex flex-col mb-20 lg:w-screen lg:grid lg:grid-flow-col">
       <div className='ml-10'>
       <h1 className="text-6xl mb-5">Our Team</h1>
@@ -21,9 +23,11 @@ const Mainpage = () => {
       <img className='OurTeam' src={OurTeam} loading='lazy' alt='unloaded Img'/>
       </div>
       <div>
+      {/* Rendering the 3D object which is the Satellite (Real one) which is the Main Goal of our project. */}
       <Satellite/>
       </div>
     </div>
+    {/* The Earth Station Section which also contains a 3D Earth Satellite Dish */}
     <div className='container md:mx-auto text-white flex flex-col lg:w-screen lg:grid lg:grid-flow-col'>
     <div className='ml-10'>
       <h1 className="text-6xl mb-5">Earth Satellite Station (ESS)</h1>
@@ -45,6 +49,7 @@ const Mainpage = () => {
       </p>
       </div>
       <div className='lg:mt-32 lg:absolute' id='EarthStation'>
+      {/* Rendering the 3D object in a react functional component */}
       <SatelliteDish/>
       </div>
     </div>

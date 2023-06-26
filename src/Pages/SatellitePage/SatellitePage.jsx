@@ -3,6 +3,9 @@ import React from 'react'
 
 const SatellitePage = () => {
   return (
+    // This page is for displaying the captured live stream video by the Rover with ESP32 Cam.
+    // Also for displaying the photo by the ESP32 Cam attached on the Satellite.
+    // The code will be updated with the real photo and video (Using the real URLs).
     <div className='container mx-auto h-full text-white flex flex-col items-center text-center'>
         <div className='content-center justify-center'>
         <h1>Captured Image : </h1>

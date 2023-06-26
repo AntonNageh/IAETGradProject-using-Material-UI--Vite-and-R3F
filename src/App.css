@@ -11,6 +11,7 @@ html{
     scroll-behavior: smooth;
 
 }
+/* Buttons */
 .Button { 
     position: relative;
     text-decoration: none;
@@ -50,9 +51,9 @@ html{
     transform: scale(1);
 }
 
-
+ /* Loader */
 .loader {
- position: relative;
+ position: absolute;
  top: 0;
  left: 0;
  width: 100vw !important;
@@ -67,7 +68,11 @@ html{
     opacity: 0;
     visibility: hidden;
 }
+.content-hidden {
+  display: none !important;
+}
 
+  /* Loader design (Available on Uiverse) */
 @keyframes astronaut {
     0% {
       transform: rotate(0deg);

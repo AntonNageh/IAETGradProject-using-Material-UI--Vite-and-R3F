@@ -9,18 +9,26 @@ import 'animate.css'
 import SatellitePage from './Pages/SatellitePage/SatellitePage'
 import { useEffect } from 'react'
 function App() {
-
+  //UseEffect for rendering the loader while the content is being loaded.
   useEffect(() => {
-      const loader = document.querySelector(".loader");
-      setTimeout(() => {
+     
+    const content = document.querySelector(".content");
+    content.classList.add("content-hidden");
+    setTimeout(() => {
+      content.classList.remove("content-hidden");
+    }, 500);
+    const loader = document.querySelector(".loader");
+      //Adding delay if the content is loaded already (just so user can notice the loader since the content is light already.)
+    setTimeout(() => {
       loader.classList.add("loader-hidden");
-      }, 500)
+    }, 500)
     
    
+    //Removing the loader code to provide performance.
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild("loader");
+    })
 
-      loader.addEventListener("transitionend", () => {
-        document.body.removeChild("loader");
-      })
   }, []);
   return (
     <>

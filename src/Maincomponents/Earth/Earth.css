@@ -1,4 +1,4 @@
-
+/* Adjusting the Earth to look like a 3D object (As far as possible) */
 .Earth {
     animation: earthAnim 50s infinite linear;
     height: 100%;
@@ -7,7 +7,7 @@
     box-shadow: -20px -20px 50px 2px #000 inset,0 0 20px 2px #000 inset;
     background-image: url('/src/Images/Earth2.jpg');
 }
-
+/* Animating it to look real */
 @keyframes earthAnim {
     0% {background-position: 0rem center;}
     20% {background-position: 40rem center;}
@@ -16,14 +16,13 @@
     80% {background-position: 160rem center;}
     100% {background-position: 200rem center;}
 }
+/* Text displayed on top of the Earth */
 .Earth_Text {
     position: absolute;
     font-weight: 400;
     color: white;
     font-size: 9rem;
     z-index: 1;
-     /*     animation: fadeInDown; 
-            animation-duration: 1s;  */
 }
 h2 {
     font-size: 2rem;

@@ -1,11 +1,12 @@
 import React, { useRef, useEffect } from "react";
 
 function Eye() {
+  //Using useRef hook to change the eyeRef variable.
   const eyeRef = useRef(null);
-
+  //UseEffect for rendering the changes, which results on changing the eyes position.
   useEffect(() => {
+    //Getting the actual position of eye. 
     const eye = eyeRef.current;
-
     const handleMouseMove = e => {
       let eyeX = eye.getBoundingClientRect().left + eye.clientWidth / 2;
       let eyeY = eye.getBoundingClientRect().top + eye.clientHeight / 2;
@@ -16,7 +17,7 @@ function Eye() {
       rotationAngle = Math.max(-360, Math.min(360, rotationAngle));
       eye.style.transform = `rotate(${rotationAngle}deg)`;
     };
-
+    //Once the user moves the mouse, the function handleMouseMove re-runs to get the mouse position to update the eyes position.
     document.addEventListener("mousemove", handleMouseMove);
 
     return () =>{
