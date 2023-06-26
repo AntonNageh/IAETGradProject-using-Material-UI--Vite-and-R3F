@@ -6,6 +6,7 @@
 body {
     background-image: url('https://e0.pxfuel.com/wallpapers/366/194/desktop-wallpaper-most-popular-outer-space-stars-background-full-for-pc-star-background-aesthetic-space-background-doodle-space-aesthetic.jpg');
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
