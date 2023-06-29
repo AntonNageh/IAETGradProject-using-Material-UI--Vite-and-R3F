@@ -2,12 +2,18 @@ import React from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import {useLoader, Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
 
 import './Rover.css'
 
 const Rover = () => {
-    const Rover = useLoader(GLTFLoader, "./3D Objects/Rover.glb")
 
+    const Rover = useLoader(GLTFLoader, './3D Objects/Rover.glb', loader => {
+        const dracoLoader = new DRACOLoader();
+        dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
+        dracoLoader.setDecoderConfig({type: 'js'})
+        loader.setDRACOLoader(dracoLoader);
+       });
   return (
     <div>
       {/* Canvas is the main tag for rendering the Satellite object */}
