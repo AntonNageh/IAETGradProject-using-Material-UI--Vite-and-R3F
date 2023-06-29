@@ -13,7 +13,7 @@ const RoverPage = () => {
         • A rover (or sometimes planetary rover),
           is a planetary surface exploration device designed 
           to move across the solid surface on a planet or other planetary mass celestial bodies.<br/>
-        • Rovers arrive on spacecraft and are used in conditions very distinct <br/> 
+        • Rovers arrive on spacecraft and are used in conditions very distinct
           from those on the Earth, which makes some demands on their design. <br/>
         • Our RC car (A simple example as the Rover), is used to stream a live video off the surface of the desired planet with UltraSonic Sensor attached on it. </h1>
       </div>
