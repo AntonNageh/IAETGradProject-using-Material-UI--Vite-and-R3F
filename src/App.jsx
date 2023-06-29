@@ -8,6 +8,7 @@ import Landing from './Pages/Landing Page/Landing'
 import 'animate.css'
 import SatellitePage from './Pages/SatellitePage/SatellitePage'
 import { useEffect } from 'react'
+import Rover from './Pages/Rover Page/RoverPage'
 function App() {
   //UseEffect for rendering the loader while the content is being loaded.
   useEffect(() => {
@@ -52,6 +53,7 @@ function App() {
       <Route element={<Mainpage/>} path='/main'></Route>
       <Route element={<SatellitePage/>} path='/satellite'></Route>
       <Route element={<Landing/>} path='/'></Route>
+      <Route element={<Rover/>} path='/Rover'></Route>
     </Routes>
     </BrowserRouter>
     <Footer/>

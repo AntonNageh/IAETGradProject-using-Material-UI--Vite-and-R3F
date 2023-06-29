@@ -1,0 +1,9 @@
+.Rover {
+    height: 40vh !important;
+}
+
+@media all and (width>=768px) {
+    .Rover {
+        height: 60vh !important;
+    }
+}

@@ -10,7 +10,7 @@ const Earth = () => {
         <div className="Earth"></div>
       </div>
     </div>
-    <a href='/Cubesat' className='text-white Button'><span>Start Now</span></a>
+    <a href='/Rover' className='text-white Button'><span>Start Now</span></a>
     <h2 className='text-white mt-10 absolute'>This is a place for all space lovers where everyone will find a hundred things for themselves</h2>
   </center>
   </div>
