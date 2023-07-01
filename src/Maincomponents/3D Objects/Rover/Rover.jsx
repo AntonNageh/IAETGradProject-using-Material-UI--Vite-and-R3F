@@ -23,8 +23,10 @@ const Rover = () => {
             position={[0, 0, 0]}
             />
             {/* Adding lights and brightness */}
-            <ambientLight intensity={2} />
-            <directionalLight color="white" position={[10, 10, 15]} /> 
+            <ambientLight intensity={2.5} />
+            <directionalLight color="white" position={[15, -10, 10]} /> 
+            <directionalLight color="white" position={[15, 0, 0]} /> 
+            <directionalLight color="white" position={[15, -10, -10]} /> 
             {/* Adding OrbitControls which is basically like an orbit in which the object will rotate */}
             {/* once the user wants to rotate it. */}
           <OrbitControls target={[0, 15, 0]} autoRotate/>
