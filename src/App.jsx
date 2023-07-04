@@ -77,7 +77,7 @@ function App() {
       <Route element={<SatellitePage/>} path='/satellite'></Route>
       <Route element={<Rover/>} path='/Rover'></Route>
       <Route element={<Landing/>} path='/'></Route>
-      <Route element={<Temp/>} path='Temp'></Route>
+      <Route element={<Temp/>} path='/Temp'></Route>
     </Routes>
     </BrowserRouter>
 

@@ -48,7 +48,7 @@ const Mainpage = () => {
       remote sensing, and satellite communication.
       </p>
       </div>
-      <div className='lg:mt-32 lg:absolute' id='EarthStation'>
+      <div className='lg:mt-32 lg:absolute'>
       {/* Rendering the 3D object in a react functional component */}
       <SatelliteDish/>
       </div>

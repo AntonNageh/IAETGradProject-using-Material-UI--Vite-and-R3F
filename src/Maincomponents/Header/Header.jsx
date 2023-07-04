@@ -30,7 +30,7 @@ const Header = () => {
       <div className="relative p-3 md:p-0 md:ml-96 Navbar_body items-center flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-10 md:mr-10 md:pl-7">
         <a className="w-fit font-medium md:py-6 dark:text-white dark:hover:text-gray-500" href="/" aria-current="page">Home</a>
         <a className="w-fit font-medium md:py-6 dark:text-white dark:hover:text-gray-500" href="/Satellite">Satellite</a>
-        <a className="w-fit font-medium md:py-6 dark:text-white dark:hover:text-gray-500" href="#EarthStation">Earth Station</a>
+        <a className="w-fit font-medium md:py-6 dark:text-white dark:hover:text-gray-500" href="/Temp">Temperature</a>
       </div>
     </div>
 
