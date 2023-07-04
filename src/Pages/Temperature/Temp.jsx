@@ -1,5 +1,5 @@
 import React from 'react'
-import ExcelData from '../../Maincomponents/3D Objects/ExcelData/ExcelData'
+import ExcelData from '../../Maincomponents/ExcelData/ExcelData'
 
 const Temp = () => {
   return (
